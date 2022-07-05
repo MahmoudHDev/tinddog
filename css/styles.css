@@ -78,7 +78,7 @@ h3 {
 /* Testemonial Section */
 
 #testimonials { 
-    padding: 7% 15%;
+
     text-align: center;
     background-color: #ef8172;
     color: #fff;
@@ -89,9 +89,9 @@ h3 {
     margin: 20px;
 }
 
-h2 { 
+.testimonial-text { 
     font-family: 'Montserrat', sans-serif;
-    font-size  : 3rem;
+    font-size  : 2.5rem;
     line-height: 2;
 }
 
@@ -106,9 +106,13 @@ h2 {
 width: 15%;
 margin: 20px 20px 50px;
 }
+.carousel-item { 
+    padding: 7% 15%;
+}
 
-#pricing {
-    color: white;
+/* pricing Section */
+
+#pricing { 
     text-align: center;
-    background-color: black;
+    padding:100px ;
 }
