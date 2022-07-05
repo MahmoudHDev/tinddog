@@ -30,11 +30,34 @@ nav .navbar-brand {
     color: #fff;
     background-color: #ff4c68;
 }
-.dogImg { 
-    transform: rotate(330deg);
-}
+
+
 h1{ 
     font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     line-height:1.5 ;
+}
+
+/* Features */
+#features { 
+    text-align: center;
+    padding: 3% 15%;
+}
+
+#features i { 
+    color: #ef8172;
+    padding-bottom: 20px;
+}
+
+#features i:hover { 
+    color: #ff4c68;
+    
+}
+
+#features p {
+color: #8f8f8f;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
 }
