@@ -12,16 +12,19 @@ body {
 
 /* Nav Bar */
 
-.navbar { 
+.navbar{ 
     font-size: larger;
     line-height: 2.5;
     
 }
+.nav-link { 
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
 nav .navbar-brand { 
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-
 }
 
 
@@ -30,7 +33,8 @@ nav .navbar-brand {
     color: #fff;
     background-color: #ff4c68;
 }
-.iphone { 
+.iphone {
+    padding-top: 20px;
     transform: rotate(-30deg);
     width:50%;
 }
