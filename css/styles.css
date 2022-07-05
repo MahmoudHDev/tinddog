@@ -3,10 +3,7 @@ body {
 }
 .container-fluid{
     text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding: 3% 10%;
 }
 
 
@@ -27,18 +24,21 @@ nav .navbar-brand {
     font-weight: bold;
 }
 
-
 /* Title Section */
 #title{
     color: #fff;
     background-color: #ff4c68;
-    position: relative;
-    z-index: -1;
+    padding-bottom: 25%;
+
+
 }
 .iphone {
     padding-top: 20px;
-    transform: rotate(30deg);
+    transform: rotate(25deg);
     width:50%;
+    position: absolute;
+    right: 30%;
+
 }
 
 h1{ 
@@ -51,8 +51,10 @@ h1{
 
 #features { 
     padding: 7% 15%;
-    position: relative;
     text-align: center;
+    position: relative;
+    z-index: 1;
+    background-color: white;
 }
 
 #features .featured-box { 
