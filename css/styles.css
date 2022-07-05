@@ -1,8 +1,8 @@
 body { 
     font-family: 'Ubuntu', sans-serif;
-
 }
-.container-fluid { 
+.container-fluid{
+    text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
     padding-left: 15%;
@@ -30,7 +30,10 @@ nav .navbar-brand {
     color: #fff;
     background-color: #ff4c68;
 }
-
+.iphone { 
+    transform: rotate(-30deg);
+    width:50%;
+}
 
 h1{ 
     font-size: 3rem;
@@ -78,10 +81,24 @@ h3 {
 }
 .testimonial-image { 
     border-radius: 100%;
+    width: 10%;
+    margin: 20px;
 }
 
 h2 { 
     font-family: 'Montserrat', sans-serif;
     font-size  : 3rem;
-    line-height: 1.5;
+    line-height: 2;
+}
+
+/* press Section */
+
+#press { 
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo { 
+width: 15%;
+margin: 20px 20px 50px;
 }
