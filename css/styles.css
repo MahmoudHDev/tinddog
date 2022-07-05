@@ -32,10 +32,12 @@ nav .navbar-brand {
 #title{
     color: #fff;
     background-color: #ff4c68;
+    position: relative;
+    z-index: -1;
 }
 .iphone {
     padding-top: 20px;
-    transform: rotate(-30deg);
+    transform: rotate(30deg);
     width:50%;
 }
 
@@ -49,6 +51,7 @@ h1{
 
 #features { 
     padding: 7% 15%;
+    position: relative;
     text-align: center;
 }
 
@@ -68,7 +71,8 @@ h1{
 }
 
 #features p {
-color: #8f8f8f;
+    color: #8f8f8f;
+    background-color: white;
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
