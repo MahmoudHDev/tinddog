@@ -102,3 +102,9 @@ h2 {
 width: 15%;
 margin: 20px 20px 50px;
 }
+
+#pricing {
+    color: white;
+    text-align: center;
+    background-color: black;
+}
