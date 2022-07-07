@@ -1,4 +1,4 @@
-body { 
+body {
     font-family: 'Ubuntu', sans-serif;
 }
 .container-fluid{
@@ -47,6 +47,7 @@ h1{
     line-height:1.5 ;
 }
 
+
 /* Features Section */
 
 #features { 
@@ -76,6 +77,13 @@ h1{
     color: #8f8f8f;
     background-color: white;
 }
+
+#cta .cta-heading{ 
+    font-size: 3.5rem;
+    margin: 5% auto;
+}
+
+
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
@@ -123,6 +131,32 @@ margin: 20px 20px 50px;
     padding:100px ;
 }
 
+/* Call to Action  Section */
+
+#cta { 
+    text-align: center;
+    color: #fff;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+
+}
+
+/* Footer Section */
+
+#footer { 
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.social-icons { 
+    padding: 20px 10px;
+}
+
+.social-icons:hover { 
+    color: red; 
+}
+
+/* @Media */
 @media (max-width: 1028) { 
 
 .iphone{
